@@ -1,0 +1,87 @@
+body,html{
+
+background-image: url(https://assets.teenvogue.com/photos/5d1b8515839dda000890f9e3/16:9/w_2560%2Cc_limit/00-story-iris-van-herpen.jpg) ;
+background-size: cover;
+margin: 0;
+padding: 0;
+background-attachment: fixed;
+}
+
+
+
+.global{
+ background-color: rgba(0, 0, 0, .8);
+ display: flex;
+ flex-direction: column;
+width: 100vw;
+height: 100%;
+}
+
+.grupo_de_tarjeta{
+   align-items: center;
+   justify-content: space-around;
+   display: flex;
+flex-wrap: wrap;
+}
+
+.tarjeta{
+   width: 200px;
+   background-color: seashell;
+   padding: 10px;
+   margin: 40px;
+   }
+
+   .tarjeta_imagen{
+width: 200px;
+   }
+
+   .textos{
+text-align: center;
+
+   }
+
+/* estilo de navbar */
+.navbar{
+display: flex;
+justify-content: space-between;
+background-color: white;
+color: rgba(0, 0, 0, .8);
+padding: 5px;
+align-items: center;
+
+}
+
+.link{
+margin: 0 25px; 
+}
+
+.links>ul{
+ list-style: none;
+   display: flex;
+}
+
+.link>a{
+text-decoration: none;
+transition: color 0.2s ease;
+color: black;
+}
+
+.brandimage>img{
+   width: 150px;
+   margin: 5px;
+   margin-left: 20px;
+}
+
+.link>a:hover{
+   color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
